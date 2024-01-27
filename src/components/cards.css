@@ -1,0 +1,55 @@
+body {
+    background: #e2e1e0;
+    text-align: center;
+  }
+  
+  .card {
+    background: red;
+    border-radius: 3px;
+    display: inline-block;
+    height: 10rem;
+    margin: 1rem;
+    width: 18rem;
+    /* overflow: hidden; */
+  }
+
+  .card .bottom {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  .card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-color: lightcoral;
+    height: 40%;
+  }
+
+  .card-1 h2{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #282C35;
+  }
+
+  .bottom h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #282C35;
+  }
+
+  .column-header {
+    border-bottom: 1px solid black; /* Add line at bottom of column headers */
+  }
+  
+  .column-cell {
+    border-bottom: 1px solid black; /* Add line at bottom of cells */
+  }
